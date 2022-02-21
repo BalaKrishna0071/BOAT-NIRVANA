@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> BOAT NIRVANA </title>
+
+    <!-- website logo -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicon_io/site.webmanifest">
+
+     <!-- font awesome icon -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+     <!-- bootstrap 5 css -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+ 
+     <!-- style css -->
+     <link rel="stylesheet" href="./assets/css/style.css">
+ 
+   
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+   
+<!-- navigation section -->
+<section id="header">
+    <nav class="navbar navbar-expand-lg bg-dark sticky-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+              <img src="./assets/img/boat logo.png"  class="img-fulid h-25" alt="">
+          </a>
+          <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=" fas fa-align-justify navbar-toggler-icon text-light"></span>
+          </button>
+          <nav class="navbar navbar-light bg-dark ms-5 d-sm-md-none">
+            <div class="container-fluid">
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn bg-dark text-light d-none d-sm-block" type="submit"><i class="fas fa-search"></i></button>
+               
+              </form>
+            </div>
+          </nav>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#products">PRODUCTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#special">OFFERS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">CONTACT</a>
+              </li>
+             
+            </ul>
+          </div>
+          <div>
+            <a href="./login_page.html" class="ps-md-5 text-light"><i class="fas fa-user-circle fa-lg"></i></a>
+          </div>
+          <div>
+            <a href="#" class="ps-md-5 text-light"><i class="fas fa-shopping-cart fa-lg"></i></a>
+          </div>
+         
+        </div>
+      </nav>
+
+</section>
+
+<!-- home section -->
+<section id="home" class="home">
+       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators mx-auto">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active ">
+                <img src="./assets/img/slider-1.jpg" class="d-block h-75 w-100 img-fulid" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/slider-2.jpg" class="d-block w-100 img-fulid" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/slider-3.jpg" class="d-block w-100 img-fulid" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true">
+                <span class="slider-icon"></span>
+              </span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true">
+                <span class="slider-icon"></span>
+              </span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+<!-- offer section -->
+          <div class="offers">
+            <div class="container">
+              <div class="row">
+                <!-- offer box one -->
+                <div class="col-sm-4 col-lg-4 mb-lg-4 mb-0">
+                  <a href="#">
+                    <div class="offer-box text-center position-relative">
+                      <div class="offer-inner">
+                        <div class="offer-img position-relative overflow-hidden">
+                          <img src="./assets/img/offer-1 (2).jpg" class="rounded img-fulid" alt="offer">
+                          <div class="offer-overlay"></div>
+                        </div>
+                        <div class="offer-info">
+                          <div class="offer-inner">
+                            <p class="heading-bigger text-capitalize">sale 30%</p>
+                          <p class="offer-title-1 text-upper-case font-weight-bold">dont miss this chance</p>
+                          <button input="button" class="btn btn-outline-danger text-upper-case mt-4">shop now</button>
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <!-- offer box two -->
+                <div class="col-sm-4 col-lg-4 mb-lg-4 mb-0 d-flex flex-column justify-content-between">
+                  <a href="#">
+                    <div class="offer-box text-center position-relative mb-4 mb-sm-0 mb-lg-0">
+                      <div class="offer-inner">
+                        <div class="offer-img position-relative overflow-hidden mt-3">
+                          <img src="./assets/img/offer-2.jpg" class="img-fulid rounded" alt="offer">
+                          <div class="offer-overlay"></div>
+                        </div>
+                        <div class="offer-info">
+                          <div class="offer-inner">
+                            <p class="heading-bigger text-capitalize">sale 70%</p>
+                            <p class="offer-title-1 text-upper-case font-weight-bold">dont miss this chance</p>
+                            <button input="button" class="btn btn-outline-danger text-upper-case mt-4">shop now</button>
+                          </div>
+                         
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  
+                  </a>
+                </div>
+                <!-- offer box three -->
+                <div class="col-sm-4 col-lg-4 col-md-4 mb-0">
+                  <a href="#">
+                    <div class="offer-box text-center position-relative">
+                      <div class="offer-inner">
+                        <div class="offer-img position-relative overflow-hidden">
+                          <img src="./assets/img/offer-4.jpg" class="rounded img-fulid" alt="offer">
+                          <div class="offer-overlay"></div>
+                        </div>
+                        <div class="offer-info">
+                          <div class="offer-inner">
+                            <p class="heading-bigger text-capitalize">sale 25%</p>
+                          <p class="offer-title-1 text-upper-case font-weight-bold">dont miss this chance</p>
+                          <button input="button" class="btn btn-outline-danger text-upper-case mt-4">shop now</button>
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+</section>
+
+
+<!-- products section -->
+<section id="products" class="products bg-dark">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="headline text-center mb-5">
+          <h2 class="pb-3 position-relative d-inline-block text-light">FEATURED PRODUCTS</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-80">
+          <img src="./assets/img/pa.png" class="img-fulid bg-danger" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Boat Airdopes 381</h5>
+            <p class="price">RS. 1999 <del class="text-danger">RS. 4999</del></p>
+            <span class="fas fa-star"></span>
+            <span class="fas fa-star"></span>
+            <span class="fas fa-star"></span>
+            <span class="far fa-star"></span>
+            <span class="far fa-star"></span>
+            <p class="card-text">Truly Wireless Earbuds with Upto 12 Hours of Music Playtime, Active Black.</p>
+            <a href="#" class="btn btn-dark mt-2">Shop now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-80">
+          <img src="./assets/img/pc.png" class="img-fulid bg-danger" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Boat Airdopes 311</h5>
+            <p class="price">RS. 1599 <del class="text-danger">RS. 2999</del></p>
+            <span class="fas fa-star"></span>
+            <span class="fas fa-star"></span>
+            <span class="fas fa-star"></span>
+            <span class="far fa-star"></span>
+            <span class="far fa-star"></span>
+            <p class="card-text">Bluetooth-Truly-Wireless-Earbuds with Upto 12 Hours of Music Playtime, Active Black</p>
+            <a href="#" class="btn btn-dark mt-2">Shop now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-80">
+          <img src="./assets/img/pb.png" class="img-fulid bg-danger" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Boat tws Airdopes 138</h5>
+            <p class="price">RS. 1299 <del class="text-danger">RS. 2999</del></p>
+            <span class="fas fa-star"></span>
+            <span class="fas fa-star"></span>
+            <span class="fas fa-star"></span>
+            <span class="fas fa-star"></span>
+            <span class="far fa-star"></span>
+            <p class="card-text">Wireless Earbuds with Upto 12 Hours of Music Playtime, Active Black</p>
+            <a href="#" class="btn btn-dark mt-2">Shop now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12"> 
+        <div class="headline text-center mt-5 mb-3">
+          <h2 class="pb-3 d-inline-block position-relative text-light">TOP SELLING</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col-lg-4 col-md-4 p-2 d-flex justify-content-center">
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/img/bs-1.png" class="card-img-top" alt="...">
+            <div class="card-body bg-danger">
+              <h5 class="card-title text-light">BOAT ROCKERS 450</h5>
+              <p class="price text-light">RS. 1,499 <del class="text-dark">RS. 1,999</del></p>
+              <span class="fas fa-star"></span>
+              <span class="fas fa-star"></span>
+              <span class="fas fa-star"></span>
+              <span class="far fa-star"></span>
+              <span class="far fa-star"></span>
+              <p class="card-text text-dark">boAt Rockerz 450 Wireless Bluetooth Headphone With Up to 8H Playback, Adaptive Lightweight Design.</p>
+              <a href="#" class="btn bg-dark mt-2 text-light">BUY SHOW</a>
+            </div>
+          </div>
+        </div>
+        <div class="col col-lg-4 col-md-4 p-2 d-flex justify-content-center">
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/img/bs-2.png" class="card-img-top" alt="...">
+            <div class="card-body bg-danger">
+              <h5 class="card-title text-light">BOAT AIRDOPES 381</h5>
+              <p class="price text-light">RS. 1,599 <del class="text-dark">RS. 4,999</del></p>
+              <span class="fas fa-star"></span>
+              <span class="fas fa-star"></span>
+              <span class="fas fa-star"></span>
+              <span class="fas fa-star"></span>
+              <span class="far fa-star"></span>
+              <p class="card-text text-dark">Perfectly designed for the outdoors with IPX5 Sweat and Water Resistance. Seamless connectivity with Bluetooth v5.0</p>
+              <a href="#" class="btn bg-dark mt-2 text-light">BUY NOW</a>
+            </div>
+          </div>
+        </div>
+        <div class="col col-lg-4 col-md-4 p-2 d-flex justify-content-center">
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/img/bs-4.png" class="card-img-top" alt="...">
+            <div class="card-body bg-danger">
+              <h5 class="card-title text-light">BOAT ROCKERS 255</h5>
+              <p class="price text-light">RS. 1,199 <del class="text-dark">RS. 1,999</del></p>
+              <span class="fas fa-star"></span>
+              <span class="fas fa-star"></span>
+              <span class="fas fa-star"></span>
+              <span class="far fa-star"></span>
+              <span class="far fa-star"></span>
+              <p class="card-text text-dark">The new Rockerz 255 are equipped with the latest Bluetooth 5.0-10mm drivers,they ensure crystal clear wireless in true HD sound.</p>
+              <a href="#" class="btn bg-dark mt-2 text-light">BUY NOW</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div> 
+</section>
+
+
+<!-- special section -->
+<section id="special" class="special">
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="headline text-center mb-5">
+        <h2 class="pb-3 position-relative d-inline-block text-light">OFFER ZONE</h2>
+      </div>
+    </div>
+    <div class="col-sm-12 col-lg-7 text-center text-lg-start ">
+      <div class="countdown-container">
+        <h2 class="text-uppercase text-light">Amazing offer & Great Deals</h2>
+        <p class="my-4">Get ready to experience a vibe of freshness with the all-new Airdopes 181 bluetooth earbuds. Make your point matter with a crisp mic powered by our ENx™ technology that enables a crystal clear calling experience. Bring out the gamer in you with its low latency BEAST™ Mode and show your friends.</p>
+        <ul class="list-unstyled countdown-counter">
+          <li><span class="fs-1 d-block" id="days">00</span>Days</li>
+          <li><span class="fs-1 d-block" id="hours">00</span>Hr</li>
+          <li><span class="fs-1 d-block" id="min">00</span>Min</li>
+          <li><span class="fs-1 d-block" id="sec">00</span>Sec</li>
+        </ul>
+        <span class="countdown-price h3 d-block mb-4 text-light">1,799<del class="text-danger"> 2,990</del></span>
+        <button type="submit" class="btn-danger">ADD TO CART</button>
+      </div>
+    </div> 
+    <div class="col-md-12 col-lg-5 d-flex justify-content-center">
+      <div class="special-img position-relative">
+        <img src="./assets/img/offerzone1.png" class="img-fulid" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+
+<!-- testimonals section -->
+<section id="testimonials" class="testimonial">
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="headline text-center mb-5">
+        <h2 class="pb-3 position-relative d-inline-block text-light">TESTIMOINALS</h2>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-12 col-lg-8 offset-lg-2 text-center">
+    <div id="carouselExampleIndicatorstwo" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicatorstwo" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicatorstwo" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+         <div class="testimonial-wrapper">
+           <div class="row">
+             <div class="col-sm-12">
+               <img src="./assets/img/boat-owner-pic-removebg-preview.png" class="img-fulid" alt="">
+             </div>
+             <div class="username text-light">
+               <h3>AMAN GUPTA, COFOUNDER / CEO</h3>
+               <span>BOAT LIMITED</span>
+               <p>Aman Gupta is the co-founder and Chief Managing Officer of Indian electronics brand boAt. Gupta is pretty much self-made starting his career as an Assistant Manager at Citi. He later became the Director of Sales at HARMAN International before making an organic transition with BoAt.</p>
+             </div>
+           </div>
+         </div>
+        </div>
+        <div class="carousel-item">
+          <div class="testimonial-wrapper">
+            <div class="row">
+              <div class="col-sm-12">
+                <img src="./assets/img/brand-amdassor.png" class="img-fulid" alt="">
+              </div>
+              <div class="username text-light">
+                <h3>BRAND AMBASSDOR</h3>
+                <span>BOAT PVT LTD</span>
+                <p>Audio brand boAt has announced a new campaign #FloatsYourboAt featuring their brand ambassador Kartik Aaryan. The campaign has been conceptualized and created by Leo Burnett India and the boAt marketing team.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicatorstwo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicatorstwo" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</div>
+</section>
+
+
+<!-- contact section -->
+<section id="contact">
+  <div class="contact">
+    <div class="container">
+      <div class="mb-5 text-center text-light">
+        <h5>Let' Start a Conversation</h5>
+        <h2 class="fw-bold">Contact Us</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-5 col-md-5">
+          <h4 class="fw-bold text-danger">Contact</h4>
+          <ul class="info list-unstyled">
+            <li class="d-flex align-items-center">
+              <span class="pe-3 fas fa-map-marker-alt fs-5"></span>
+              <p><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, magnam!</a></p>
+            </li><li class="d-flex align-items-center">
+              <span class="pe-3 fas fa-mobile-alt fs-5"></span>
+              <p><a href="#">+91 999-999-9999</a></p>
+            </li>
+            <li class="d-flex align-items-center">
+              <span class="pe-3 far fa-envelope fs-5"></span>
+              <p><a href="#">Boatpvt@.com</a></p>
+            </li>
+          </ul>
+
+        </div>
+        <div class="col-lg-7 col-md-7 pt-lg-0 pt-md-0 pt-4">
+          <form>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="text" class="form-control" name="name" id="name" placeholder="Your Name">
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="gmail" class="form-control" name="gmail" id="gmail" placeholder="Gmail Address">
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <textarea class="text-area" name="message" id="message" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <button class="btn btn-danger"><span class="fas fa-rocket"></span>Send message</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- footer section -->
+<footer>
+  <div class="p-3 copyright">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 col-lg-6 p-1 p-lg-3 text-center text-lg-start">
+          <p class="my-0">copyright@2022 <a href="#">Boat pvt</a> Right Reserved</p>
+        </div>
+        <div class="col-12 col-lg-6 p-1 p-lg-3 text-center text-lg-end">
+          <p>Designed by <a href="#" target=" _blank">Balakrishna</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+    <!-- bootstrap 5 js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- main js link -->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
